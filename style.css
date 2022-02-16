@@ -1,0 +1,76 @@
+body {
+    background: gray;
+}
+
+/* styling the header */
+h1{
+    background-color: purple;
+    color: gold;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* event - hover */
+h1:hover {
+    background-color: gold;
+    color: purple;
+}
+
+/* styling the top paragraph */
+.TopPara {
+    text-align: left;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* boxes in middle of page */
+.row div {
+    display: inline-block;
+    height: 300px;
+    padding: 50px;
+}
+
+.col {
+    margin: auto;
+    text-align: center;
+}
+
+.box1 {
+    background-color: pink;
+    font-size: 20px;
+}
+
+.box2 {
+    background-color: green;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.box3 {
+    background-color: lightblue;
+    font-size: 20px;
+}
+
+.col:hover {
+    background-color:  brown;
+    cursor: help;
+}
+
+a {
+    color: white;
+    background-color: rgb(54, 5, 54);
+    border: 4px dashed blueviolet;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    width: fit-content;
+    border-radius: 80px
+}
+
+a:hover {
+    color: white;
+    background-color: rgb(221, 211, 198);
+    border-radius: 0px;
+    font-weight: bold;
+
+}
